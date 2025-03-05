@@ -1,0 +1,113 @@
+:root{
+  --primary-color: #f4f4f4;
+  --secondary-color: #333;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: var(--primary-color);
+}
+
+h2 {
+  display: block;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: var(--secondary-color);
+  color: var(--primary-color);
+  padding: 10px;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  border-radius: 0.5em;
+  gap: 5px;
+}
+
+nav ul li {
+  padding: 5px 10px;
+}
+
+nav ul li a {
+  color: var(--primary-color);
+  text-decoration: none;
+}
+
+nav ul li:hover {
+  background-color: #444;
+}
+
+.login-container {
+  margin-left: auto;
+}
+
+.login-container a {
+  color: var(--primary-color);
+  text-decoration: none;
+}
+
+input {
+  margin-left: 15em;
+  margin-bottom: 5px;
+  width: 60vw;
+  border: 0;
+  border-bottom: 2px solid var(--primary-color);
+  background-color: var(--secondary-color);
+  outline: none;
+  font-size: 0.9em;
+  transition: all .3s ease-out;
+  color: var(--primary-color);
+}
+
+.movie-list {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 20px;
+}
+
+.movie-card {
+  background: var(--primary-color);
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin: 0.6em;
+  padding: 0.6em;
+  width: 11vw;
+  text-align: center;
+}
+
+.movie-card img {
+  max-width: 100%;
+  border-radius: 0.3em;
+}
+
+p {
+  font-size: 0.75em;
+}
+
+footer {
+  height: 2em;
+  align-items: center;
+  text-align: center;
+  background: var(--secondary-color);
+  color: var(--primary-color);
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+}
+
+button {
+  background-color: var(--secondary-color);
+  border: 0;
+  height: 30px;
+  width: 30px;
+  cursor: pointer;
+  color: var(--primary-color);
+}
