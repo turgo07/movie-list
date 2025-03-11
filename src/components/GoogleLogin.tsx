@@ -23,7 +23,7 @@ const GoogleLoginButton: React.FC = () => {
   };
 
   return (
-    <GoogleOAuthProvider clientId="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">
+    <GoogleOAuthProvider clientId="GOCSPX-f7cc9t9Zq3lQ9c1xA-fSUgkBi9b">
         <div>
         {user ? (
             <div>
